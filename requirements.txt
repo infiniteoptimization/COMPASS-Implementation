@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sse-starlette
+python-dotenv
+openai
+fastmcp
+mcp
+tavily-python
+requests
+beautifulsoup4

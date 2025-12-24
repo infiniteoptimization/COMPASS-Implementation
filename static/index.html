@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPMAS - Multi-Agent System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>🗂️ History</h2>
+                <button id="new-chat-btn" class="btn-primary">➕ New Chat</button>
+            </div>
+            <div id="session-list" class="session-list"></div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <header class="main-header">
+                <h1>General Purpose Multi-Agent System <span class="badge">GPMAS</span></h1>
+                <p class="attribution">
+                    Based on the <a href="https://arxiv.org/abs/2510.08790" target="_blank">COMPASS Architecture
+                        (Wan et al., 2025)</a>
+                </p>
+            </header>
+
+            <div id="chat-container" class="chat-container">
+                <div class="welcome-msg">Select a chat or start a new one.</div>
+            </div>
+
+            <!-- Removed the separate #agent-status div here -->
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <textarea id="user-input" placeholder="What would you like to know?" rows="1"></textarea>
+                <button id="send-btn" class="btn-send">➤</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
