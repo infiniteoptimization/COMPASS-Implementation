@@ -35,9 +35,7 @@ The system consists of three specialized agents working in tandem:
 -   **Hierarchical Reasoning**: Separates high-level planning from low-level execution.
 -   **Evolving Context**: Dynamically updates research notes to prevent context saturation.
 -   **MCP Integration**: Full support for the **Model Context Protocol (MCP)**, allowing the agent to dynamically discover and use external tools (Google Search, DuckDuckGo, Tavily, etc.).
--   **Dual Interface**:
-    *   **Streamlit UI**: A clean, data-science-friendly interface for rapid testing.
-    *   **Modern Web Dashboard**: A premium, responsive FastAPI-powered web interface with real-time SSE (Server-Sent Events) streaming.
+-   **Modern Web Dashboard**: A premium, responsive FastAPI-powered web interface with real-time SSE (Server-Sent Events) streaming.
 -   **Persistent History**: Full chat history and agent notes stored in SQLite.
 
 ## 🚀 Getting Started
@@ -102,7 +100,7 @@ You can choose between the two interfaces:
 -   **Models**: You can change the model used by the agents by editing the `MODEL_NAME` variable in `main.py` or `server.py`. The system works best with reasoning models like `grok-4.1-fast`, `deepseek-v3`, or `glm-4.6v`.
 -   **Ports**: 
     -   MCP Server: `8000`
-    -   Web/Streamlit UI: `8501`
+    -   Web UI: `8501`
 
 ## 📂 Project Structure
 
